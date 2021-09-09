@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Bw Surco';
+    src: local('Bw Surco Black'), local('Bw-Surco-Black'),
+        url('BwSurco-Black.woff2') format('woff2'),
+        url('BwSurco-Black.woff') format('woff'),
+        url('BwSurco-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
