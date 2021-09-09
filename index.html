@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css"/>
+    <link rel="stylesheet" href="fonts/font.css">
+    <title>Huispoezenenbuitenkatten</title>
+</head>
+<body>
+    <div id="fullpage">
+        <div class="section s1">
+            <h1>Huispoezen & </br> buitenkatten</h1>
+            <p>Inspirerende verhalen die aanzetten tot actie!</p>
+        </div>
+        <div class="section s2">
+            <img class="dava" src="images/DC4308A9-F239-46F3-939E-6664C188D5CC-2.JPEG" height="100%" weight="25%">
+        </div>
+        <div class="section s3">
+            <img class="libri" src="images/libri.jpg" height="55%" weight="55%">
+        </div>
+        <div class="section s4">
+            
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.extensions.min.js"></script>
+
+    <script>
+        new fullpage('#fullpage', {
+            anchors:['Home', 'About', 'Buy', 'Testimonials'],
+            autoScrolling: true,
+            navigation: true,
+            navigationTooltips: ['Home', 'About', 'Buy', 'Testimonials'],
+            responsiveWidth: 900,
+            responsiveHeight: 500,
+            responsiveSlides: true,
+        })
+    </script>
+</body>
+</html>
